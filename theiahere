@@ -19,4 +19,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # 
-docker run -u $(id -u) --rm -it -p 10443:10443 -v $(pwd):/home/theia/project calfonso/sec-theia-ide /home/theia/project
+docker run -u $(id -u) --rm -it -p 10443:10443 -v $(pwd):/home/project calfonso/sec-theia-ide

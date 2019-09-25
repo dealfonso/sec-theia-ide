@@ -1,4 +1,5 @@
-FROM theiaide/theia:latest
+ARG version=latest
+FROM theiaide/theia:$version
 
 # We need to add openssl to be able to create the certificates on demand
 USER root

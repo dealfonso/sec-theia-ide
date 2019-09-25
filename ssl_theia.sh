@@ -50,9 +50,9 @@ fi
 fi
 
 if [ "$DEBUG" == "1" ]; then
-    node /home/theia/src-gen/backend/main.js "$@" &
+    node /home/theia/src-gen/backend/main.js /home/project "$@" &
 else
-    node /home/theia/src-gen/backend/main.js "$@" 2> /dev/null &
+    node /home/theia/src-gen/backend/main.js /home/project "$@" 2> /dev/null &
 fi
 
 THEIAPID=$!
